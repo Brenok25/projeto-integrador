@@ -8,6 +8,8 @@
     padding: 0;
 
     font-family: 'Nunito', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* ############################## */
@@ -180,7 +182,21 @@ select {
 }
 
 .send{
-    margin: 5% 0;
+    margin: 5% 0 0 0;
     height: 3.2rem;
     width: 100%;
+}
+
+/* ############################## */
+/* Formulario - fim */
+/* ############################## */
+
+@media screen and (max-width:800px){
+    .open_modal{
+        background-color:#000;
+    }
+
+    .modal-content{
+        padding: 5%;
+    }
 }
