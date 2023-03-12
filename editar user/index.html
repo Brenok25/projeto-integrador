@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.: Editar de user :.</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <button class="open_modal">Edição de usuario</button>
+
+    <div class="modal">
+        <div class="modal-content">
+
+            <div class="info_modal">
+
+                <h1>Editar Usuario</h1>
+
+            <div class="formulario">
+                <form action="#">
+
+                    <div class="item">
+                        <label for="nome">Nome:</label> <br>
+                        <input type="text" placeholder="Ex: João ninguem" id="nome">
+                    </div>
+
+                    <div class="item">
+                        <label for="tipo">Tipo:</label> <br>
+                        <select name="#" id="tipo">
+                            <option value="0" disabled selected>Selecione um tipo</option>
+                            <option value="1">Docente</option>
+                            <option value="2">Adiministrador</option>
+                        </select>
+                    </div>
+
+                    <div class="item dissmis">
+                        <label for="matricula">Matricula:</label> <br>
+                        <input type="number" placeholder="Ex: 8880088" disabled>
+                    </div>
+
+                    <div class="item">
+                        <label for="mail">Email:</label> <br>
+                        <input type="email" placeholder="Ex: nome@email.com">
+                    </div>
+
+                    <div class="item">
+                        <label for="password">Senha:</label> <br>
+                        <input type="password" placeholder="Ex: 123">
+                    </div>
+
+                    <div class="send">
+                        <input type="submit" value="Concluir">
+                    </div>
+                    
+                </form>
+            </div>
+
+            <span class="close-button">Cancelar</span>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./modal.js"></script>
+</body>
+</html>

@@ -186,6 +186,10 @@ select {
     width: 100%;
 }
 
+.dissmis input{
+    background-color: #bdbdbd;
+}
+
 /* ############################## */
 /* Formulario - fim */
 /* ############################## */
@@ -196,3 +200,4 @@ select {
         padding: 5%;
     }
 }
+
