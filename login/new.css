@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* BODY */
+
+body {
+  margin: 0;
+  background: linear-gradient(105.18deg, #f4fbfa 0%, #bebebe 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 97vw;
+  height: 95vh;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #55b25d;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* LEFT INFO */
+
+.left_info {
+  flex: 1 1 5%;
+  padding: 0rem 2rem 2rem 4rem;
+  color: white;
+}
+
+.left_info h1 {
+  font-size: 4rem;
+  padding-top: 25%;
+}
+
+.left_info #h1_baixo {
+  font-weight: 400;
+}
+
+.left_info .letra_title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.letra_title:first-child{
+  color: #F78B1F;
+}
+
+.letra_title:last-child{
+  color: #005594;
+}
+
+.left_info p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+/* RIGHT INFO */
+
+.right_info {
+  flex: 1 1 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formulario {
+  flex-basis: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.inp_dados {
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 50%;
+  outline: none;
+  border:none;
+  background-color: #f4fbfa;
+}
+
+.inp_senha .show-btn {
+  position: absolute;
+  top: 16%;
+  right: 15%;
+}
+
+.inp_senha{
+  background-color: #f4fbfa;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  margin:  0 0 0 10.5rem;
+}
+
+#password{
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.send_btn {
+  background-color: #ffd32a;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 50%;
+}
+
+ .social {
+  flex-basis: 100%;
+}
+
+.title_contatos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.line_h4 {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin-right: 0.5rem;
+}
+
+.icons_all {
+  display: flex;
+  justify-content: center;
+}
+
+.social_icon {
+  margin: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.social_icon:hover {
+  transform: scale(1.2);
+}
+
+.last_img{
+  flex: 1 1 100%;
+}
