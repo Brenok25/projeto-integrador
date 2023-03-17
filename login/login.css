@@ -42,3 +42,12 @@ body {
   justify-content: flex-start;
   border: 1px solid red;
 }
+
+.last_img{
+  border: 1px solid blue;
+  width: 50%;
+}
+
+.last_img img{
+  border: 1px solid red;
+}
