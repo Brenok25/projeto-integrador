@@ -1,4 +1,4 @@
-var modal = document.querySelector(".modal");
+var modal = document.querySelector(".modal-cad-user");
 var open_modal = document.querySelector(".open_modal");
 var closeButton = document.querySelector(".close-button");
 
